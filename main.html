@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Shopping List</title>
+
+	<meta charset="UTF-8">
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />	
+
+	<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600' rel='stylesheet' type='text/css'>
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/action.js"></script>
+
+</head>
+<body>
+	<div class="container" class="clearfix">
+		<div class="main-side">
+			<div class="main-bar"></div>
+			<h1 class="main-title">Shopping List</h1>
+		</div>
+
+		<div class="list-section clearfix">
+			<form>
+				<input type="text" name="newItem" id="itemInput" class="textBox" placeholder="+Type a new item here">
+				<button type="submit" id="add">+</button>
+			</form>
+
+			<ul id="list">
+				<li class="items">
+					<div class="box"></div>
+					<span class="item">Hamburger buns lorem usmpu</span>
+					<div class="delete"></div>
+				</li>
+				<li class="items">
+					<div class="box"></div>
+					<span class="item">Grapes</span>
+					<div class="delete"></div>
+				</li>
+				<li class="items">
+					<div class="box"></div>	
+					<span class="item">Paper cups</span>
+					<div class="delete"></div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+</body>
+</html>
